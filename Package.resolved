@@ -2,21 +2,21 @@
   "object": {
     "pins": [
       {
-        "package": "Realm",
-        "repositoryURL": "https://github.com/realm/realm-cocoa.git",
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/bradleyandrew/realm-core.git",
         "state": {
-          "branch": null,
-          "revision": "4cbe20f31b1bcc20190c724632143b4f9b8ac3e3",
-          "version": "10.15.1"
+          "branch": "xcode-27-fix",
+          "revision": "006a08a34d96532de5db3d0f44168f946b0031a7",
+          "version": null
         }
       },
       {
-        "package": "RealmDatabase",
-        "repositoryURL": "https://github.com/realm/realm-core",
+        "package": "Realm",
+        "repositoryURL": "https://github.com/bradleyandrew/realm-swift.git",
         "state": {
-          "branch": null,
-          "revision": "23f60515a00f076a9e3f2dc672fe1ae07601ee90",
-          "version": "11.4.1"
+          "branch": "release/10.54.8",
+          "revision": "e6ca5f0b5bed60240bd86c3e17b3a02c097369c2",
+          "version": null
         }
       }
     ]
