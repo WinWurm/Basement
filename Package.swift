@@ -15,13 +15,13 @@ let package = Package(
             targets: [targetName]),
     ],
     dependencies: [
-        .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", from: "10.15.0")
+        .package(url: "https://github.com/bradleyandrew/realm-swift.git", branch: "release/10.54.8")
     ],
     targets: [
         .target(
             name: targetName,
             dependencies: [
-                .product(name: "RealmSwift", package: "Realm")
+                .product(name: "RealmSwift", package: "realm-swift")
             ]
         ),
         .testTarget(
